@@ -1,0 +1,1363 @@
+body{overflow-x: hidden;}
+button{cursor: pointer !important;}
+.logoBlock{
+    display: flex;
+    align-items: center;
+}
+.logoText{
+    width: 250px;
+    padding-bottom: 30px;
+}
+.logoText h1{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FCF2F2;
+}
+.logo{
+    width: 68px;
+    height: 126px;
+}
+.logoP{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FCF2F2;
+}
+.navbar,.navbar ul, nav{
+    display: flex;
+    font-family:'Ubuntu', sans-serif;
+}
+.navbar{align-items: center;}
+nav{
+    display: flex !important;
+    color: #FCF2F2;
+    /* width: 67.986vw; */
+    margin-left: 25px;
+    transform: translate(25px,-70%)
+}
+nav li{
+    padding: 4px 5px 0;
+    font-size: 16px;
+}
+.active{
+    border: 1px solid #FCF2F2;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.dottedLi{
+    border-bottom: 1px dotted;
+}
+
+.violet{
+    position: absolute;
+    width: 60.625vw;
+    height: 100.972vw;
+    top: -47.134vw;
+    left:15.572vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #643DA8;
+    border-radius: 200px;
+    transform: rotate(53.45deg);
+    z-index: -1;
+}
+.violetR{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(124, 92, 182, 0.5) 100%), #FFFCFC;
+    border-radius: 15px;
+    top: 94vw;
+    left: 22vw;
+    transform: rotate(89.5deg);
+    width: 87px;
+    height: 87px;
+}
+.rectangle30{
+    position: absolute;
+    width: 10.417vw;
+    height: 10.417vw;
+    left: -6.597vw;
+    top: 35.236vw;
+    background: linear-gradient(9.57deg, rgba(122, 88, 180, 0.5) -2.12%, rgba(122, 88, 180, 0.5) 0.84%, rgba(255, 255, 255, 0) 96.92%), #FFFCFC;
+    border-radius: 15px;
+    transform: rotate(54deg);
+}
+.rectangle31{
+    position: absolute;
+    right: 2.292vw;
+    top: 20.833vw;
+    bottom: 0px;
+    width: 82px;
+    height: 82px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transform: rotate(46.46deg);
+}
+.rectangle32{
+    width: 10.417vw;
+    height: 10.417vw;
+    position: absolute;
+    right: -72px;
+    top: 35.972vw;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transform: rotate(47.46deg);
+}
+.rectangle33{
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    right: 11.458vw;
+    top: 38.7vw;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transform: rotate(46.46deg);
+}
+.callIconBlock{
+    width: 25px;
+    display: flex;
+    height: 25px;
+    border-radius: 50%;
+    background: #FCF2F2;
+    align-items: center;
+    justify-content: center;
+}
+.fa-phone{
+    color: black;
+    font-size: 17px;
+}
+.menu{
+    padding-right: 1.472vw;
+}
+.numberHr{
+    width: 3px;
+    height: 68%;
+    background: #FCF2F2;
+}
+.headingCentrBlock{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+.headingText{
+    width: 415px;
+    font-family:'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FCF2F2;
+}
+.headingText p {
+    font-family:'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.headingHr{
+    width: 59px;
+    background: #FCF2F2;
+    height: 3px;
+    margin:12px 0 26px;
+}
+.whatWeDo h2{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FCF2F2;
+}
+.whatWeDo ul{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FCF2F2;
+    line-height: 23px;
+    margin-left: 25px;
+    position: relative;
+}
+.whatWeDo ul li:nth-child(3){
+    opacity: 0.8;
+}
+.whatWeDo ul li:nth-child(4){
+    opacity: 0.6;
+}
+.whatWeDo ul li:nth-child(5){
+    opacity: 0.4;
+}
+.more{
+    transform: rotate(-90deg);
+    border-bottom: 2px solid white;
+    width: 118px;
+    padding-left: 10px;
+    opacity: 0.4;
+    position: absolute;
+    top: 183px;
+    left: -41px;
+}
+.more i {
+    position: absolute;
+    left: -6px;
+    top: 16px;
+}
+.ipadBlock{
+    min-width: 371px;
+    min-height: 413px;
+    width: 41.875vw;
+    height: 37.014vw;
+    background-image: url(../img/ipad.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-42px, -58px);
+    z-index: 1;
+}
+.repairButton,.timeButton,.serviceButton,.contactButton{
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    left: 50.694vw;
+    top: 41.5vw;
+    width: 215px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #6D48AD;
+    border-radius: 28px;
+    background: none;
+    outline: none;
+}
+
+
+
+                                            /* ***TIME_SECTION***
+                                                **TIME_SECTION***
+                                                **TIME_SECTION*** */
+
+
+.timeSection{
+    position: relative;
+    margin-top: 11.458vw;
+    margin-bottom: 9.458vw;
+    width: 83%;
+    height: 629px;
+}
+.timeSectionText{
+    position: absolute;
+    top: 118px;
+    width: 399px;
+    left: 200px;
+}
+.timeSectionText h2,.phonesSection h2,.howWeWork h2,.whyWeCenterBlock h2,.prices h2,.feedBackHeading h2,.questonsText h2,.contact h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 57px;
+}
+.timeSectionText p,.phonesSection p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 109.4%;
+    font-weight: bold;
+    margin: 15px 0px 30px;}
+
+.timeButton{
+    position: unset;
+}
+.rectangle34{
+    width: 406px;
+    height: 406px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #704CAF;
+    border-radius: 40px;
+    transform: rotate(46.46deg);
+    position: absolute;
+    right: 96px;
+    top: 80px;
+}
+.timeHand{
+    position: absolute;
+    /* right: 44px;
+    top: 61px; */
+    width: 538px;
+    right: 4px;
+    top: 69px;
+    height: 392px;
+    background: url(../img/sekundomer\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-0.5deg);
+}
+.rectangle35{
+    width: 152px;
+    height: 152px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.72, 0.72, -0.69, 0, 0);
+    position: absolute;
+    bottom: 31px;
+    left: 679px;
+}
+.rectangle36{
+    width: 68px;
+    height: 68px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 15px;
+    transform: rotate(46.46deg);
+    position: absolute;
+    bottom: 96px;
+    left: 545px;
+}
+.rectangle37{
+    width: 37px;
+    height: 37px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(123, 89, 181, 0.4);
+    border-radius: 10px;
+    transform: rotate(46.46deg);
+    position: absolute;
+    bottom: 15px;
+    left: 827px;
+}
+.rectangle38{
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    left: 118px;
+    top: 91px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(124, 92, 182, 0.5) 100%), #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transform: rotate(46.46deg);
+    z-index: 1;
+}
+.rectangle39{
+    width: 143px;
+    height: 143px;
+    position: absolute;
+    top: 104px;
+    left: 25px;
+    background: linear-gradient(180deg, rgba(122, 88, 180, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.72, 0.72, -0.69, 0, 0);
+}
+
+
+
+
+                                            /* ***PHONES_SECTION***
+                                                **PHONES_SECTION***
+                                                **PHONES_SECTION*** */
+.phonesSection{display: flex;padding-bottom: 11.111vw;}
+.phonesTop{
+    width: 50%;
+    padding-left: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+
+}
+.phonesBottom{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.phonesTextBlock{
+    width: 460px;
+    height: 331px;
+    /* margin-left: 158px; */
+}
+.phonesBottom div{padding: 0 20px;}
+.phonesText h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.phonesText p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.phonesImg1{
+    width: 148px;
+    height: 223px;
+    background-image: url(../img/Group\ 37.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.phonesImg2{
+    width: 148px;
+    height: 223px;
+    background-image: url(../img/Group\ 36.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.phonesImg3{
+    width: 148px;
+    height: 223px;
+    background-image: url(../img/Group\ 33.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.phonesImg4{
+    width: 148px;
+    height: 223px;
+    background-image: url(../img/Group\ 34.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.phonesImg5{
+    width: 148px;
+    height: 223px;
+    background-image: url(../img/Group\ 35.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rectangle47{
+    position: absolute;
+    left: 150px;
+    width: 37px;
+    height: 37px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(123, 89, 181, 0.4);
+    border-radius: 10px;
+    transform: rotate(46.46deg);
+    z-index: -1;
+}
+.rectangle46{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 150px;
+    height: 150px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.72, 0.72, -0.69, 0, 0);
+}
+.rectangle48{
+    position: absolute;
+    top: 253px;
+    left: -5px;
+    width: 68px;
+    height: 68px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 15px;
+    transform: rotate(46.46deg);
+    z-index: -1;
+}
+.rectangle89{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 111px;
+    left: 100px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 10px;
+    transform: rotate(46.46deg);
+    z-index: -1;
+}
+.rectangle88{
+    width: 89px;
+    height: 89px;
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(-0.77, 0.64, 0.64, 0.77, 0, 0);
+    z-index: -1;
+}
+
+
+
+
+
+                                                /* ***HOW_WE_WORK***
+                                                ***HOW_WE_WORK***
+                                                ***HOW_WE_WORK*** */
+
+.howWeWork{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}      
+.numberBlock{
+    position: relative;
+    width: 86.6%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 22px;
+}
+.numberBlock span{
+    opacity: 0.3;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.round{
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.line{
+    position: absolute;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+}
+
+.howWeWorkBoxes{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.boxBg{
+    width: 140px;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 22px 0 22px;
+    border-radius: 15px;
+    background: #FBF9FF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.activeBox{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    background: linear-gradient(212.94deg, rgba(255, 255, 255, 0.5) 18.89%, rgba(255, 255, 255, 0) 89.03%), #7B5AB5;
+}
+.activeBox .boxIcon{
+    width: 48px;
+    height: 51px;
+    background:url(../img/Mask\ Group.png);
+}
+.boxTitle{width: 97px;text-align: center;margin: auto;}
+.activeBox .boxTitle span{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: block;
+}
+.boxBg span{
+    color: #171616;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+}
+.boxText p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #141414;
+}
+.boxText{
+    padding-top: 22px;
+    width: 137px;
+    margin: auto;
+}
+.rectangle87{
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    bottom: 13px;
+    left: -138px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 10px;
+    transform: matrix(0.69, 0.77, -0.68, 0.69, 0, 0);
+}
+.rectangle86{
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    bottom: 86px;
+    left: -104px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.77, 0.68, -0.69, 0, 0);
+}
+.rectangle85{
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    bottom: 0;
+    left: -54px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 10px;
+    transform: matrix(0.69, 0.77, -0.68, 0.69, 0, 0);
+}
+
+
+                                                 /* ****WHY_WE****
+                                                 ****WHY_WE****
+                                                 ****WHY_WE**** */
+
+.whyWe{
+    padding: 3.472vw 0 8.333vw;
+    position: relative;
+}
+.whyWeCenterBlock{
+    margin: auto;
+    width: 70%;
+}
+.whyWeBoxes{
+    padding-top: 6.458vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.whyBoxBg{
+    display: block;
+    justify-content: center;
+    width: 290px;
+    height: 290px;
+    padding: 35px 5px 49px;
+    background: #FFFEFE;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 45px rgba(146, 119, 194, 0.6);
+    border-radius: 2px;
+    margin-top: 3.472vw;
+}
+.whyWeBox{
+    width: 80%;
+    margin: auto;
+}
+.boxIcon{
+    margin: auto;
+}
+.boxTitle h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 109.4%;
+}
+.whyBoxBg .boxTitle{
+    width: unset;
+    padding: 9px 0 24px;
+}
+.whyBoxBg .boxText{
+    padding-top: unset;
+    width: 169px;
+    text-align: center;
+}
+.rectangle91{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 30px;
+    right: 28px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 5px;
+    transform: matrix(0.69, 0.75, -0.7, 0.69, 0, 0);
+    z-index: -1;
+}
+.rectangle90{
+    width: 117px;
+    height: 117px;
+    position: absolute;
+    right: 55px;
+    top: 60px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 10px;
+    transform: matrix(0.69, 0.75, -0.7, 0.69, 0, 0);
+    z-index: -1;
+}
+.rectangle92{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    left: 58px;
+    bottom: 414px;
+    background: #FFFCFC;
+    opacity: 0.45;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.75, 0.7, -0.69, 0, 0);
+}
+.rectangle93{
+    width: 138px;
+    height: 138px;
+    position: absolute;
+    left: 25px;
+    bottom: 317px;
+    background: #FFFCFC;
+    opacity: 0.45;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.75, 0.7, -0.69, 0, 0);
+}
+.rectangle94{
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    right: 134px;
+    bottom: 53px;
+    background: #FFFCFC;
+    opacity: 0.45;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.73, 0.68, 0.68, -0.73, 0, 0);
+}
+
+
+.rectangle95{
+    width: 93px;
+    height: 94px;
+    position: absolute;
+    right: 21px;
+    bottom: 130px;
+    background: #FFFCFC;
+    opacity: 0.45;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.75, 0.69, 0.63, -0.75, 0, 0);
+}
+
+
+
+                                           /* ***PRICES***
+                                           ***PRICES***
+                                           ***PRICES*** */
+
+
+.prices{position: relative;}
+.pricesCenterBlock{
+    width: 82%;
+    margin-left: 14.722vw;
+}
+.lastPrice{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    line-height: 109.4%;
+    margin-top: 11px;
+}
+.lastPrice a{
+    font-family: 'Ubuntu', sans-serif;
+    color: #8162B9;
+    text-decoration: underline;
+}
+.service{
+    margin-right: 40px;
+}
+.service p{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 35px;
+}
+.servicePrice{
+    width: 79px;
+}
+.servicePrice{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #8162B9;
+    line-height: 35px;
+}
+.servicePriceWrap{
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 6px 0 9px -10px rgba(0, 0, 0, 0.25);
+    padding: 0 3.1vw;
+}
+.servicePriceBoxesBlock div:first-child{padding-left: unset;}
+.servicePriceBoxesBlock div:nth-child(3) {box-shadow: unset;border: unset !important;}
+.servicePriceBoxesBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.472vw 0;
+}
+.serviceHr{
+    width: 1px;
+    height: 126px;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle96{
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 15px;
+    transform: rotate(46.46deg);
+}
+.rectangle97{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 131px;
+    left: 10px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(122, 88, 180, 0.4);
+    border-radius: 15px;
+    transform: rotate(46.46deg) 
+}
+.rectangle98{  
+    width: 132px;
+    height: 132px;
+    position: absolute;
+    top: 157px;
+    left: 31px;
+    z-index: -1;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.72, 0.72, -0.69, 0, 0);
+}
+.serviceButtonBlock{
+    margin: auto;
+    width: max-content;
+}
+.serviceButton{
+    position: unset;
+}
+
+
+
+                                            /* ***FEED_BACK***
+                                            ***FEED_BACK***
+                                            ***FEED_BACK*** */
+
+.feedBack{padding: 8.472vw 0 14.5vw;}
+.feedBackCentrBlock {
+    width: 77%;
+    margin-left: 14.722vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}                                                                                     
+.feedBackPar{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    line-height: 109.4%;
+}
+.feedBackTextBlcok h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 109.4%;
+    padding: 50px 0 10px;
+}
+.feedBackTextBlcok span{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.feedBackText p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+.feedBackWrapper{
+    width: 42.639vw;
+}
+.starsBlock{
+    display: flex;
+    margin: 10px 0;
+}
+.stars{display: flex;}
+.starIcon{
+    width: 23px;
+    height: 23px;
+    background: url(../img/Star\ 3.svg);
+}
+.girl{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255,0) 0%, rgba(255, 255, 255, 0) 100%), url(../img/girl.svg);
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.arrowLeft{
+    width: 70px;
+    height: 70px;
+    background: url(../img/icons8.svg);
+    position: absolute;
+    top: 40%;
+    left: -77px;
+}
+.arrowRight{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 40%;
+    right: -77px;
+    background: url(../img/icons9.svg);
+}
+.rechtangle99{
+    width: 563px;
+    height: 563px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 14.58%, #FFFFFF 100%), #7E5EB7;
+    position: absolute;
+    top: -103px;
+    right: -430px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    border-radius: 61px;
+    transform: matrix(0.69, 0.72, 0.72, -0.69, 0, 0);
+    z-index: -1;
+}
+
+.feedBackImg{position: relative;}
+
+
+
+
+                                        /* ***QUESTIONS***
+                                        ***QUESTIONS***
+                                        ***QUESTIONS*** */
+
+
+.manImg{
+    width: 39.583vw;
+    height: 55.764vw;
+    background: url(../img/men.svg);
+    position: absolute;
+    left: 13.542vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+.rechtangle100{
+    width: 37.639vw;
+    height: 37.847vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 14.58%, #FFFFFF 100%), #7E5EB7;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(121, 87, 180, 0.4);
+    z-index: -1;
+    border-radius: 61px;
+    transform: matrix(0.69, 0.72, 0.72, -0.69, 0, 0);
+    position: absolute;
+    top: 10.310vw;
+    left: 7.083vw;
+}
+.rechtangle101{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 66px;
+    top: 364px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(250, 248, 254, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.77, -0.68, 0.69, 0, 0);
+}
+.rechtangle102{
+    width: 138px;
+    height: 138px;
+    position: absolute;
+    top: 500px;
+    left: 79px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(252, 250, 255, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.77, 0.68, -0.69, 0, 0);
+}
+
+
+.question{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.questionsImgBlock{
+    width: 53.403vw;
+    max-width: 1000px;
+    min-width: 600px;
+    height: 769px;
+    position: relative;
+}
+.questionPar{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.question h3{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    line-height: 27px;
+    color: #6F23F5;
+}
+.closeIcon{
+    width: 59px;
+    height: 59px;
+    background: url(../img/closeIcon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.question p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
+.questonsText{
+    width: 41.667vw;
+}
+.plusIcon{
+    margin-right: 35px;
+    width: 33px;
+    min-width: 33px;
+    height: 33px;
+    min-height: 33px;
+    background: url(../img/plus.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.question ul li{
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 24px 0;
+    display: flex;
+    font-weight: normal;
+    font-size: 20px;
+    color: #0E0B12;
+    opacity: 0.4;
+}
+
+                                            /* ***CONTACT***
+                                            ***CONTACT***
+                                            ***CONTACT*** */
+
+.contact{
+    width: 100%;
+    margin-left: 14.722vw;
+    display: flex;
+    position: relative;
+}
+.address{
+    margin: auto 0;
+}
+.contactHeading{
+    padding-bottom: 4.514vw;
+}
+.contactIcon{
+    width: 35px;
+    height: 35px;
+}
+.contactPar{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.address li{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 20px 0;
+}
+.address ul li:nth-child(1){
+    padding-top:0 ;
+}
+.address ul li:nth-child(2){
+    padding:0 ;
+}
+.address ul li:nth-child(3){
+    padding: 0;
+}
+.contactButton{
+    position: unset;
+    margin-top: 10px;
+}
+.map{
+    width: 53.056vw;
+    height: 56.319vw;
+    background: url(../img/map.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rechtangle104{
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    right: 0px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(113, 31, 255, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.74, 0.71, -0.69, 0, 0);
+}
+.rechtangle105{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -65px;
+    right: 35px;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px rgba(113, 31, 255, 0.4);
+    border-radius: 15px;
+    transform: matrix(0.69, 0.74, 0.71, -0.69, 0, 0);
+}
+
+
+                        
+                                                            /* ***footer***
+                                                            ***footer***
+                                                            ***footer*** */
+footer{
+    display: flex !important;
+    padding-left: 14.722vw !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    align-items: center;
+    height: 71px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #9176C1;
+}
+footer div:first-child{display: flex;justify-content: space-between;width: 100%;}
+footer div p{
+    font-size: 15px;
+    line-height: 109.4%;
+    color: #FFFCFC;
+}
+footer span{
+    color:white;
+    text-shadow: 2.5px 2px 1px black;
+    margin-right: 5.903vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .logoText {
+        display: none;
+      }
+    .phonesSection {
+        display: block;
+    }
+    .rectangle47{left: -30px;}
+    .rectangle48{left: 100px;}
+    .rectangle46{
+        width: 100px;
+        height: 100px;
+        top: 150px;
+        z-index: -1;
+    }
+    .rectangle89{
+        bottom: 85px;
+        left: 343px;
+    }
+    .rectangle88{
+        bottom: 150px;
+        right: -700px;
+    }
+    .phonesTop{
+        margin: auto;
+        width: 80%;
+        margin: auto;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .phonesBottom{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .phonesSection div{
+        margin: auto;
+        margin-top: 0;
+    }
+    .phonesTextBlock{
+        height: unset;
+    }
+    .phonesText{text-align: center;}
+    .servicePriceBoxesBlock{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .servicePriceBoxesBlock div:nth-child(3){
+        padding-top: 42px;
+    }
+  } 
+@media screen and (max-width: 1100px){
+    .feedBackCentrBlock{
+        width: 82%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .timeSection {
+        width: 100%;
+    }
+    .logoText {
+      display: none;
+    }
+    .howWeWork{
+        width: 86%;
+    }
+     .headingTextBlock h1{
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .headingText p{
+        font-size: 16px;
+    }
+    .whatWeDo h2{font-size: 20px;}
+    .more{    
+        width: 115px;
+        top: 145px;
+        left: 98px;
+    }
+    nav li{font-size: 14px;}
+    .timeHand{
+        width: 467px;
+        height: 339px;
+        /* right: 3px; */
+        right: 11px;
+        top: 69px;
+    }
+    .rectangle34{
+        width: 356px;
+        height: 356px;
+    }
+    .timeSectionText h2,.phonesTextBlock h2,.howWeWork h2,.whyWeCenterBlock h2,.prices h2,.feedBackHeading h2,.questonsText h2,.contact h2{
+        font-size: 35px;
+    }
+    .question h3{font-size: 25px;}
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+html{  box-sizing: border-box;}
+*,*::before,*::after{box-sizing: inherit;}
+
+/* ubuntu-300 - latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'),
+         url('../fonts/ubuntu-v14-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/ubuntu-v14-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* ubuntu-regular - latin */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+         url('../fonts/ubuntu-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/ubuntu-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* ubuntu-500 - latin */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+         url('../fonts/ubuntu-v14-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/ubuntu-v14-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
